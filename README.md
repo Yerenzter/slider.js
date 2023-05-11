@@ -3,7 +3,7 @@ A conventional JavaScript library for creating a slides.
 
 # Overview 
 
-'''
+```
 // For texts.
 let listNames = ["Yer", "Renzter", "Nenyer", "Yerenzter"];
 
@@ -29,4 +29,4 @@ function OnNext() {
     names.textContent = slideName.Next();
     images.src = slideImage.Next();
 }
-'''
+```
