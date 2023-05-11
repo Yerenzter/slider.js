@@ -1,7 +1,23 @@
 # sliderJS
 A conventional JavaScript library for creating a slides.
 
-# Overview 
+### Overview
+```
+let <SliderVariableName> = new Slider(<VectorArrayParam>);
+```
+Instantiation of Slider class.
+
+```
+<SliderName>.Previous();
+```
+A slider method that moves an indexed array position to left.
+
+```
+<SliderName>.Next();
+```
+A slider method that moved an indexed array position to right.
+
+### Usage
 
 ```
 // For texts.
